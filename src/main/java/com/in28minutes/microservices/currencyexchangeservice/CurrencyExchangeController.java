@@ -22,6 +22,8 @@ public class CurrencyExchangeController {
 
 		exchangeValue.setPort(Integer.parseInt(environment.getProperty("local.server.port")));
 
+		System.out.println("Exchange exchangeValue get "+exchangeValue);
+		
 		return exchangeValue;
 
 	}
